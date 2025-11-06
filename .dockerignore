@@ -1,0 +1,13 @@
+# .dockerignore
+
+# Bỏ qua môi trường ảo local
+.venv
+
+# Bỏ qua các tệp cache của Python
+__pycache__/
+*.pyc
+
+# Bỏ qua các tệp/thư mục không cần thiết
+.git
+.vscode
+db.sqlite3“
