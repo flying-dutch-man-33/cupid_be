@@ -1,7 +1,0 @@
-Django>=4.2
-djangorestframework
-python-jose[cryptography]
-requests
-cachetools
-psycopg2-binary
-python-dotenv
