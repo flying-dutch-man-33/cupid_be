@@ -1,0 +1,82 @@
+# ----------------------------------------------------------------
+# Python & Virtual Environments
+# ----------------------------------------------------------------
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+.env/
+
+# Python packaging
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# ----------------------------------------------------------------
+# Django
+# ----------------------------------------------------------------
+# Local database file (if using sqlite for local testing)
+db.sqlite3
+*.sqlite3
+
+# Log files
+*.log
+logs/
+
+# Media files (user-uploaded content should not be in version control)
+media/
+
+# Static files (the collected folder, not your app's static source)
+staticfiles/
+
+# ----------------------------------------------------------------
+# Secrets & Environment Files
+# ----------------------------------------------------------------
+# Environment variables file
+.env
+.env.*
+
+# Local/secret settings (a common pattern)
+settings_local.py
+local_settings.py
+
+# ----------------------------------------------------------------
+# OS-specific (from your project file )
+# ----------------------------------------------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ----------------------------------------------------------------
+# IDE & Editor
+# ----------------------------------------------------------------
+# VSCode (from your project file )
+.vscode/
+
+# PyCharm
+.idea/
+
+# Vim swap files
+*.swp
+*.swo
+
+# ----------------------------------------------------------------
+# Database & Cache
+# ----------------------------------------------------------------
+# Database dump files
+*.sql
+*.dump
+
+# Redis dump file
+dump.rdb
